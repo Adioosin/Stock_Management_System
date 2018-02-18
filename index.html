@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Transaction Details</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body style="background-color:#e0e0e0;">
+
+<div class="container" >
+  <h2>Transaction Details</h2>
+  <form action="index.php" method="post">
+    <div class="form-group">
+      <label for="id" >Customer id:</label>
+      <input type="number" class="form-control" required="required" id="id" placeholder="Enter Customer id" name="id">
+    </div>
+    <div class="form-group">
+      <label for="stockn" >Stock Name:</label>
+      <input type="text" class="form-control" required="required" id="stockn" placeholder="Enter Stock Name" name="stockn">
+    </div>
+	<div class="form-group">
+      <label for="quantity" >Quantity:</label>
+      <input type="number" class="form-control" required="required" id="quantity" placeholder="Enter quantity" name="quantity">
+    </div>
+		<div class="form-group">
+      <label for="amount" >Total Amount:</label>
+      <input type="text" class="form-control" required="required" id="amount" placeholder="Enter Total Amount" name="amount">
+    </div>
+	<div class="form-group">
+      <label for="paidamt" >Paid Amount:</label>
+      <input type="text" class="form-control" required="required" id="paidamt" placeholder="Enter Paid Amount" name="paidamt">
+    </div>
+    <div class="form-group">
+      <label for="date" >Date:</label>
+      <input type="date" class="form-control" required="required" id="date" placeholder="Enter Date" name="date">
+    </div>
+    <button type="submit" class="btn btn-default">Submit</button>
+  </form>
+</div>
+</br>
+<div style="margin-left:200px;">
+<font size="2">New Customer <a href="customer.html">click here</a></font>
+</div>
+</body>
+</html>

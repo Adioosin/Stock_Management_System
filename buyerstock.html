@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Stock,Buyer and Profit Details</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body style="background-color:#e0e0e0;">
+
+<div class="container">
+  <h2>Stock details</h2>
+  <form action="stock.php" method="post">
+    <div class="form-group">
+      <label for="stockn" >Stock Name:</label>
+      <input type="text" class="form-control" required="required" id="stockn" placeholder="Enter Stock Name" name="stockn">
+    </div>
+	<div class="form-group">
+      <label for="quantity" >Quantity:</label>
+      <input type="number" class="form-control" required="required" id="quantity" placeholder="Enter quantity" name="quantity">
+    </div>
+		<div class="form-group">
+      <label for="price" >Price:</label>
+      <input type="number" class="form-control" required="required" id="price" placeholder="Enter Total Amount" name="price">
+    </div>
+    <button type="submit" class="btn btn-default">Submit</button>
+  </form>
+</div>
+<div style="margin-left:200px;">
+<font size="2"><a href="buyingstock.html">click here</a> to buy stock</font>
+</div>
+</br>
+<div class="container">
+  <h2>Buyer details</h2>
+  <form action="buyer.php" method="post">
+    <div class="form-group">
+      <label for="name" >Name:</label>
+      <input type="text" class="form-control" required="required" id="name" placeholder="Enter name" name="name">
+    </div>
+    <div class="form-group">
+      <label for="addr" >Mobile Number:</label>
+      <input type="text" class="form-control" required="required" id="addr" placeholder="Enter Mobile Number" name="addr">
+    </div>
+    <button type="submit" class="btn btn-default">Submit</button>
+  </form>
+</div>
+ <div class="container">
+  <h2>Profit calculation:</h2>
+  <form action="profit.php" method="post">
+    <div class="form-group">
+      <label for="fromdate" >From date:</label>
+      <input type="date" class="form-control" required="required" id="fromdate" placeholder="From date" name="fromdate">
+    </div>
+    <div class="form-group">
+      <label for="todate" >To Date:</label>
+      <input type="date" class="form-control" required="required" id="todate" placeholder="To Date" name="todate">
+    </div>
+    <button type="submit" class="btn btn-default">Submit</button>
+  </form>
+</div>
+
+</body>
+</html>

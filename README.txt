@@ -1,0 +1,1 @@
+its a Stock Management System made using php and mysql. where you can keep track of the items and that you have in stock. whether you have enough to sell or not , reminder is given if it is less than a given amount. you can also cheeck for the profit that has been made between any two dates.

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Customer Details</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body style="background-color:#e0e0e0;">
+
+<div class="container">
+  <h2>Customer details</h2>
+  <form action="customer.php" method="post">
+    <div class="form-group">
+      <label for="name" >Name:</label>
+      <input type="text" class="form-control" required="required" id="name" placeholder="Enter name" name="name">
+    </div>
+    <div class="form-group">
+      <label for="addr" >Mobile Number:</label>
+      <input type="text" class="form-control" required="required" id="addr" placeholder="Enter Mobile No." name="addr">
+    </div>
+    <button type="submit" class="btn btn-default">Submit</button>
+  </form>
+</div>
+
+</body>
+</html>
